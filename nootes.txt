@@ -1,0 +1,31 @@
+python manage.py migrate : we need some authenticattion and table for it we use this command
+it shows some default table 
+
+create new super user : python manage.py createsuperuser
+
+username : kunal
+email : ktbrandd2@gmail.com
+password : kunal@123
+
+we can change django admin dashboard
+
+admin.site.site_header = "Admin - RUINER"
+admin.site.site_title = "Ruiner portal"
+admin.site.index_title = "Welcome to portal"
+
+add above text to urls.py
+
+Template inheritence 
+
+{% extends "base.html" %}
+
+{% block title %}
+Ruiner Gaming
+{% endblock title %}
+
+{% block body %}
+This is my body
+{% endblock body %}
+
+many times we have some webpages where header and footers remains same and we dont write it again and again instead we directly use 
+Template inheritence

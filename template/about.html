@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+
+{% block title %}ABOUT{% endblock title %}
+
+{% block body %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal Tanpure - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contact-info">
+            <h1>Kunal Tanpure</h1>
+            <p><strong>Research and Development - Software / Machine Learning Engineer</strong></p>
+            <p>📞 +91 7498737267 | 📧 kunaltanpured4@gmail.com</p>
+            <p><a href="https://github.com/kunal-tanpure25" target="_blank">GitHub</a> | LinkedIn</p>
+        </div>
+        
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Programming Languages and Frameworks:</strong> C/C++, Python, HTML/CSS, JavaScript, MySQL, Flask, Django</li>
+                <li><strong>Data Science:</strong> Data Analytics, Tensorflow, Pytorch, Keras, Scikit-learn, OpenCV, NLP, Chatbot, Deep Learning</li>
+                <li><strong>Software Development:</strong> Data Structures and Algorithms, Debugging and Optimization, Git, Docker, AWS, Operating Systems, Computer Networking</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <h3>Research And Development - Software Developer, IFB Appliances</h3>
+            <p><em>07/2023 - Present</em></p>
+            <ul>
+                <li>Created dynamic visualization dashboards using Django, Flask, and Python for real-time data analysis.</li>
+                <li>Deployed ML algorithms for tasks like vibration control, load sensing, and wash performance metrics.</li>
+                <li>Automated data pipelines in Python for seamless ML model integration into production.</li>
+                <li>Developed new software algorithms in C/C++ to enhance system performance.</li>
+                <li>Integrated AWS for real-time monitoring and IoT performance analysis.</li>
+            </ul>
+
+            <h3>Research Intern, Samsung Prism</h3>
+            <p><em>01/2023 - 06/2023</em></p>
+            <ul>
+                <li>Trained and deployed NLU and ASR models for RASA in Hindi, enhancing language capabilities.</li>
+                <li>Optimized NLP tools for Hindi language models and deployed for SpaCy.</li>
+                <li>Implemented a conversational chatbot with a GUI using Python libraries.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <h3>Supervised Machine Learning Algorithm Comparison</h3>
+            <ul>
+                <li>Compared ML models for classification, evaluating accuracy, precision, and recall.</li>
+                <li>Analyzed variations in model performance due to data quality and feature importance.</li>
+            </ul>
+
+            <h3>Multi SaaS Tenant CRM System Development</h3>
+            <ul>
+                <li>Developed a multi-tenant CRM system with data segregation and role-based access control.</li>
+                <li>Implemented lead management, customer data storage, and analytics dashboards.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>College Of Engineering, Pune</strong> — <em>B.Tech, 2019 - 2023</em></p>
+            <p>CGPA: 6.36</p>
+        </div>
+    </div>
+</body>
+</html>
+
+{% endblock body %}
